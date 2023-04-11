@@ -1,5 +1,0 @@
-window.store={
-    dificulty:'',
-    gameStatus:'',
-
-}

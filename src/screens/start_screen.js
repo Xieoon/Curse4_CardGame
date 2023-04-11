@@ -5,3 +5,4 @@ Array.from(document.querySelectorAll('.window_choice-button')).forEach(el =>{
         //тут будет отрисовка экрана игры
     }
 })
+
