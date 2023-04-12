@@ -4,5 +4,11 @@ window.store={
 
 }
 
-const Handlebars = require("handlebars");
-console.log(Handlebars);
+import template from './screens/template.hbs';
+
+const data = {
+  name: 'мир',
+};
+
+const html = template();
+document.body.innerHTML = html;
