@@ -4,11 +4,11 @@ window.store={
 
 }
 
-import template from './screens/template.hbs';
+// import template from './screens/template.hbs';
 
-const data = {
-  name: 'мир',
-};
+// const data = {
+//   name: 'мир',
+// };
 
-const html = template();
-document.body.innerHTML = html;
+// const html = template();
+// document.body.innerHTML = html;
