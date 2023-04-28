@@ -1,7 +1,7 @@
-export default class Card{
-    constructor(cardPosition){
+export default class Card {
+    constructor(cardPosition) {
         this.cardPosition = cardPosition
-        
+
         this.cardFace = cardPosition.src
         this.cardBack = '../static/shirt.svg'
         this.flipped = true
@@ -10,18 +10,13 @@ export default class Card{
         // this.cardPosition.onclick = this.cardFlip;
     }
 
-   cardClose(){
-    this.cardPosition.src = this.cardBack
-    this.flipped = false
-   }
+    cardClose() {
+        this.cardPosition.src = this.cardBack
+        this.flipped = false
+    }
 
-   cardOpen(){
-    this.cardPosition.src = this.cardFace
-    this.flipped = true
-   }
-
-  
+    cardOpen() {
+        this.cardPosition.src = this.cardFace
+        this.flipped = true
+    }
 }
-
-
-

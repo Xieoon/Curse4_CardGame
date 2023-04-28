@@ -34,7 +34,6 @@
 }
 .window_choice-button {
     width: 96px;
-    
     height: 98px;
     left: 465px;
     top: 354px;
@@ -44,13 +43,15 @@
     font-size: 64px;
     line-height: 72px;
     border-radius: 12px;
-
+    border: none;
     color: #0080C1;
     
 }
+
 .window_choice-button:hover {
     color: green;
-    border-color: purple;}
+}
+    
 .button-start {
     width: 246px;
     height: 50px;
@@ -60,13 +61,21 @@
     background: #7AC100;
     border-radius: 12px;
     font-family: 'Roboto Mono', monospace;
-    font-size: medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
 }
 
-.game{
+.background{
     width: 1024px;
     height: 774px;
     background: #004980
+}
+
+.start-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .board{
