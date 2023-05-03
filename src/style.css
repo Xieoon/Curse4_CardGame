@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("StratosSkyeng"),
+         /* Есlocal("Roboto"),ли не получилось, загрузит woff2 */
+         url("static/fonts/web_fonts/stratosskyengweb-regular.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("static/fonts/web_fonts/stratosskyengweb-regular.woff") format("woff");
+  }
+
 .window_choice {
     width: 480px;
     height: 459px;
@@ -17,7 +29,7 @@
     height: 96px;
     left: 408px;
     top: 210px;
-    font-family: 'Roboto Mono', monospace;
+    font-family:'StratosSkyeng';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -37,7 +49,7 @@
     height: 98px;
     left: 465px;
     top: 354px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'StratosSkyeng';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -60,7 +72,7 @@
     border: none;
     background: #7AC100;
     border-radius: 12px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'StratosSkyeng';
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
@@ -95,4 +107,26 @@
     padding-right: 22px;
     padding-top: 40px;
     padding-bottom: 45px;
+}
+
+.timer{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.button-restart{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
 }
