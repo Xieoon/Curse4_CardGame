@@ -1,14 +1,15 @@
-window.store={
-    dificulty:'',
-    gameStatus:'',
+import './style.css'
+import startScreen from './screens/start_screen.js'
 
+window.store = {
+    dificulty: '',
+    gameStatus: '',
+    clicCounter: 0,
 }
 
-// import template from './screens/template.hbs';
+startScreen()
 
-// const data = {
-//   name: 'мир',
-// };
+// import template from './screens/start_screen.hbs';
 
 // const html = template();
 // document.body.innerHTML = html;
