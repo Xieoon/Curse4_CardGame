@@ -16,18 +16,24 @@ export default class Table {
                             if (this.clicCounter === window.store.dificulty) {
                                 setTimeout(
                                     () =>
-                                        (document.body.innerHTML = template({
+                                        {
+                                            document.body.innerHTML = template({
                                             status: 'победили',
-                                        })),
+                                            imgStatus:"win.svg",
+                                            time:`${document.querySelector('.timer').textContent}`
+                                        })},
                                     400
                                 )
                             }
                         } else {
                             setTimeout(
                                 () =>
-                                    (document.body.innerHTML = template({
+                                    {  
+                                        document.body.innerHTML = template({
                                         status: 'проиграли',
-                                    })),
+                                        imgStatus:"lose.svg",
+                                        time:`${document.querySelector('.timer').textContent}`
+                                    })},
                                 400
                             )
                         }

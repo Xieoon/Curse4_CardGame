@@ -132,4 +132,58 @@
     background-color: #7AC100;
 border-radius: 12px;
 border: none;
+
+}
+
+.lose_container{
+    width: 480px;
+    height: 459px;
+    display: flex;
+    background: #C2F5FF;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 48px;
+}
+.final-img{
+    width: 96px;
+    height: 96px;
+    padding-top: 28px;
+}
+.final-status{
+    font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #004980;
+margin: none;
+font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.time_message{
+    font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+}
+
+.final-time{
+    font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+color: #000000;
+padding-bottom: 40px;
+}
+
+.lose-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
